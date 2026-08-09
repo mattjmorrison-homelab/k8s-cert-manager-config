@@ -6,7 +6,7 @@ metadata:
 spec:
   secretName: wildcard-morrisons-site-tls
   issuerRef:
-    name: letsencrypt-staging
+    name: letsencrypt-prod
     kind: ClusterIssuer
   dnsNames:
     - "*.morrisons.site"
